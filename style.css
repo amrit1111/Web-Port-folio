@@ -1,0 +1,117 @@
+body{
+	background-image: url(background.jpg);
+	margin: 0;
+	font-family: Arial;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.headul{
+	justify-content: space-around;
+	display: flex;
+	width: 100%;
+	padding: 0px 20px;
+	background-color: lightblue;
+	box-shadow: inset 0 -10px 20px 0 rgba(0, 0, 0, 0.7);
+	position: fixed;
+	top: 0;
+}
+
+li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 32px;
+	padding: 20px;
+}
+div{
+	color: white;
+
+}
+ul li a:hover{
+ 	color: red;
+}
+
+form{
+	text-align: left;
+	margin: 2%;
+	padding: 30px;
+}
+section{
+	display: flex;
+	margin: 1%;
+	padding: 20px;
+
+}
+header{
+	color: white;
+	font-size: 32px;
+	padding: 1%;
+	margin: 0%;
+}
+.container{
+	text-align: center;
+	color: white;
+	padding: 5%;
+	word-spacing: 3px;
+
+}
+footer{
+	font-size: 32px;
+	text-align: center;
+	color: white;
+	margin: 2%;
+	padding: 2%;
+}
+.first{
+	margin: 2%;
+	margin-top: 100px;
+	padding: 2%;
+	border-radius: 10px 20px 10px 20px;
+	background-repeat: no-repeat;
+	grid-gap: 20px;
+}
+
+.main{
+	display: grid;
+	grid-gap: 30px;
+	padding: 0;
+	margin: 0;
+	margin-left: 2px;
+	margin-top: 50px;
+}
+.gallary{
+    border: 1px solid black;
+	grid-gap: 20px;
+	background-color: grey;
+	padding: 20px;
+	text-align: center;
+	font-size: 32px;
+}
+.detail{
+	background-color: grey;
+	border: 1px solid black;
+	padding: 20px;
+	font-size: 32px;
+	text-align: center;
+	font-size: 32px;
+}
+.second{
+	color: white;
+	margin-right:20%; 
+	margin-left:20%;
+	font-size: 32px;
+}
+.qualification{
+	background-color: grey;
+	border: 1px solid black;
+	padding: 20px;
+	font-size: 32px;
+	text-align: center;
+	font-size: 32px;
+
+}
+
